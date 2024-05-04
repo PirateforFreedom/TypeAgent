@@ -46,7 +46,7 @@ You can view the list of available in-chat commands (e.g. `/memory`, `/exit`) in
 
 
 **1:** Run with the CLI:
-1. Run typeagent configure
+1. Run `typeagent configure`
 2. Run `typeagent server`
 3. Go to `localhost:8283` in the browser to view the developer portal 
 
