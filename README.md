@@ -46,8 +46,9 @@ You can view the list of available in-chat commands (e.g. `/memory`, `/exit`) in
 
 
 **1:** Run with the CLI:
-1. Run `memgpt server`
-2. Go to `localhost:8283` in the browser to view the developer portal 
+1. Run typeagent configure
+2. Run `typeagent server`
+3. Go to `localhost:8283` in the browser to view the developer portal 
 
 Once the server is running, you can use the [Python client] or [REST API] to connect to  `localhost:8283` (if you're running with the CLI) to create users, agents, and more. The service requires authentication with a TypeAgent admin password, which can be set with running `export TYPEAGENT_SERVER_PASS=password`. 
 
