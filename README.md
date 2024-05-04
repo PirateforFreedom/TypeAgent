@@ -1,5 +1,5 @@
 # TypeAgent
-TypeAgent , a unified agent framework that can create various types of agents, types include task, chat, code, social simulation etc.
+TypeAgent , a unified agent framework that can create various types of agents, types include Memgpt, OpenDevin, SWE, AIOS,Concordia,Generative Agents etc.
 
 <p align="center">
   <a href="https://memgpt.ai"><img src="https://github.com/cpacker/MemGPT/assets/5475622/80f2f418-ef92-4f7a-acab-5d642faa4991" alt="MemGPT logo"></a>
@@ -103,5 +103,3 @@ By using MemGPT and related MemGPT services (such as the MemGPT endpoint or host
 ## Roadmap
 You can view (and comment on!) the MemGPT developer roadmap on GitHub: https://github.com/cpacker/MemGPT/issues/1200.
 
-## Benchmarking 
-To evaluate the performance of a model on MemGPT, simply configure the appropriate model settings using `memgpt configure`, and then initiate the benchmark via `memgpt benchmark`. The duration will vary depending on your hardware. This will run through a predefined set of prompts through multiple iterations to test the function calling capabilities of a model. You can help track what LLMs work well with MemGPT by contributing your benchmark results via [this form](https://forms.gle/XiBGKEEPFFLNSR348), which will be used to update the spreadsheet.
