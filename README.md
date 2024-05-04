@@ -1,13 +1,14 @@
-# TypeAgent
-TypeAgent , a unified agent framework that can create various types of agents, types include Memgpt, OpenDevin, SWE, AIOS,Concordia,Generative Agents etc.
+
 
 <p align="center">
+  # TypeAgent
+TypeAgent , a unified agent framework that can create various types of agents, types include Memgpt, OpenDevin, SWE, AIOS,Concordia,Generative Agents etc.
   <a href="https://memgpt.ai"><img src="https://github.com/cpacker/MemGPT/assets/5475622/80f2f418-ef92-4f7a-acab-5d642faa4991" alt="MemGPT logo"></a>
 </p>
 
 <div align="center">
 
- <strong>MemGPT allows you to build LLM agents with long term memory & custom tools</strong>
+ <strong>TypeAgent allows you to create various types of  LLM agents types include Memgpt, OpenDevin, SWE, AIOS,Concordia,Generative Agents etc</strong>
 
 [![Discord](https://img.shields.io/discord/1161736243340640419?label=Discord&logo=discord&logoColor=5865F2&style=flat-square&color=5865F2)](https://discord.gg/9GEQrxmVyE)
 [![arxiv 2310.08560](https://img.shields.io/badge/arXiv-2310.08560-B31B1B?logo=arxiv&style=flat-square)](https://arxiv.org/abs/2310.08560)
