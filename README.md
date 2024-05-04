@@ -1,7 +1,7 @@
 
 
 <p align="center">
-  <img src="./assets/logo.png" alt="TypeAgent logo"></a>
+  <img src="./assets/logotest.png" alt="TypeAgent logo"></a>
 </p>
 
 <div align="center">
