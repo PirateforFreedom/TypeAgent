@@ -7,7 +7,6 @@
 <div align="center">
 
  <strong>TypeAgent allows you to create various types of  LLM agents types include Memgpt, OpenDevin, SWE, AIOS,Concordia,Generative Agents etc</strong>
-
 </div>
 
 
@@ -105,6 +104,7 @@ See full documentation at:
 
 ## Comments
 
+- If you are interested in the project ,you can make a issue, i am working on that .......
 - Our codebase for the TypeAgent builds heavily on [MemGPT codebase](https://github.com/cpacker/MemGPT?tab=readme-ov-file)
 Thanks for open-sourcing! ,Our code will be open soon.....
 
