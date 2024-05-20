@@ -8,7 +8,8 @@
 
 <div align="center">
 
- <strong>TypeAgent allows you to create various types of  LLM agents,agent types include Memgpt, OpenDevin, SWE, AIOS,Concordia,Generative Agents etc,every type of agent has a specifical architecture</strong>
+ <strong>TypeAgent allows you to create various types of  LLM agents,agent types include Memgpt, OpenDevin, SWE, AIOS,Concordia,Generative Agents etc,
+ every type of agent has a unique architecture which has unique functionality </strong>
 </div>
 
 
