@@ -1,4 +1,6 @@
-## If you are interested in business cooperation or anything else, please make a issues
+
+<span style="color:red;">If you are interested in business cooperation or anything else, please make a issues > </span>
+
 
 <p align="center">
   <img src="./assets/logotest5.png" alt="TypeAgent logo"></a>
