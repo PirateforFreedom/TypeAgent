@@ -1,5 +1,5 @@
 
-<span style="color:red;">If you are interested in business cooperation or anything else, please make a issues > </span>
+- If you are interested in business cooperation or anything else, please make a issues
 
 
 <p align="center">
