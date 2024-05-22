@@ -108,7 +108,8 @@ See full documentation at:Coming soon
 
 ## Comments
 
-- If you are interested in the project ,you can make a issue, i am working on that .......
+- This project is a Leisure time hobby，If you are interested in the project ,you can make a issue, i am working on that .......
+- when TypeAgent V1.0 code and docs are finished ,i will open source .
 - 这个项目是业余爱好，刚开始，如果有小伙伴感兴趣，可以加入，但是要会Python
 - Our codebase for the TypeAgent builds heavily on [MemGPT codebase](https://github.com/cpacker/MemGPT?tab=readme-ov-file)
 Thanks for open-sourcing! ,Our code will be open soon.....
