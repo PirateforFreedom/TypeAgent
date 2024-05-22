@@ -25,7 +25,7 @@ TypeAgent makes it easy to build and deploy stateful,various types of  LLM agent
 * Intelligent switching knowledge base
 * Defining and calling custom tools
 
-You can also use TypeAgent to depoy agents as a *service*. You can use a TypeAgent server to run a multi-user, multi-agent application on top of supported type of agents  and supported LLM providers.
+You can also use TypeAgent to deploy agents as a *service*. You can use a TypeAgent server to run a multi-user, multi-agent application on top of supported type of agents  and supported LLM providers.
 
 
 
