@@ -1,5 +1,6 @@
 
 ## If you are interested in this project or any questions about that, please make a issues
+## Current progress：TypeAgent V1.0  70%，TypeAgent V1.0 docs 60%
 
 
 <p align="center">
