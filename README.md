@@ -77,6 +77,8 @@ TypeAgent is designed to be Agent Type  agnostic. The following Agent Type are s
 | SalesGPT            | ❌               |
 | SWE                 | ❌               |
 | Generative Agents   | ❌               |
+| Transformer Agents  | ❌               |
+| Langchain Agents    | ❌               |
 
 The implementation methods of all the above types of agents are different. Now they are integrated into the unified interface through TypeAgent. 
 
