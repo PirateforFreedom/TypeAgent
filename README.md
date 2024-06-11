@@ -1,5 +1,6 @@
 
 ## We are still optimizing the code of the default agent type memgpt。。。。。。。，
+## below typeagent python library is not working now...........,maybe later is ok ...
 ## Current progress：TypeAgent V1.0  80%，TypeAgent V1.0 docs 65%
 
 
