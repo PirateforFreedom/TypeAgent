@@ -1,6 +1,6 @@
 
-## If you are interested in this project or any questions about that, please make a issues
-## Current progress：TypeAgent V1.0  75%，TypeAgent V1.0 docs 65%
+## We are still optimizing the code of the default agent type memgpt。。。。。。。，
+## Current progress：TypeAgent V1.0  80%，TypeAgent V1.0 docs 65%
 
 
 <p align="center">
@@ -20,7 +20,7 @@
 TypeAgent makes it easy to build and deploy stateful,various types of  LLM agents with support for: 
 * Various types of  LLM agents,Integrated in unified TypeAgent framework, seamless switching various types of llm agents.
 * LLM Type-architecture-functionality architecture which ensure every type of agent has unique feature
-* Long term memory/state managemet
+* Long term memory/state managemet,short term memory,knowledge base long term memory
 * Basic RAG workflow for knowledge base which created by external data sources (e.g. PDF files)
 * Intelligent switching knowledge base
 * Defining and calling custom tools
