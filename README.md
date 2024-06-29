@@ -97,7 +97,7 @@ TypeAgent is designed to be model and provider agnostic. The following LLM and e
 | Groq                | ✅ (alpha release) | ❌                  |
 | Cohere API          | ✅               | ❌                  |
 | vLLM                | ✅               | ❌                  |
-| Ollama              | ✅               | ❌                  |
+| Ollama              | ✅               | ✅                  |
 | LM Studio           | ✅               | ❌                  |
 | koboldcpp           | ✅               | ❌                  |
 | oobabooga web UI    | ✅               | ❌                  |
