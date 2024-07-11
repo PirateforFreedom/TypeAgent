@@ -1,6 +1,6 @@
 
-## We are still optimizing the code of the default agent type memgpt，restful api and cli already finished,only left is client.Note:below typeagent python library is not working now,maybe later is ok.
-## Current progress：TypeAgent V1.0  80%，TypeAgent V1.0 docs 65%
+## We are coding to add the opendevieplan agent to typeagent.Note:below typeagent python library is not working now,maybe later is ok.
+## Current progress：TypeAgent V1.0  90%，TypeAgent V1.0 docs 65%
 
 
 <p align="center">
