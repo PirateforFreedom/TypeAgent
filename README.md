@@ -16,7 +16,7 @@
 
 
 
-TypeAgent makes it easy to build and deploy stateful,various types of  LLM agents with support for: 
+TypeAgent makes it easy to build and deploy stateful LLM agents with support for: 
 * Long term memory/state managemet,short term memory,knowledge base long term memory
 * Basic RAG workflow for knowledge base which created by external data sources (e.g. PDF files)
 * Intelligent switching knowledge base
