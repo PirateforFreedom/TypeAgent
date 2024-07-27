@@ -92,4 +92,4 @@ By using TypeAgent and related TypeAgent services (such as the TypeAgent endpoin
 
 
 ## Roadmap
-You can view (and comment on!) the TypeAgent developer roadmap on GitHub: Coming soon
+goal: EQ and IQ AGENT
