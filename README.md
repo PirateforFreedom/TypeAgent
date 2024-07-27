@@ -9,7 +9,7 @@
 
 <div align="center">
 
- <strong>TypeAgent allows you to create a LLM agent,which has complete memory module (long-term memory, short-term memory) and knowledge module（Various knowledge bases）</strong>
+ <strong>TypeAgent allows you to create a LLM agent,which has complete memory module (long-term memory, short-term memory) and knowledge module（Various knowledge bases）,eventually become an agent with both EQ and IQ</strong>
 </div>
 
 
