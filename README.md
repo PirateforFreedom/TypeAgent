@@ -46,7 +46,7 @@ TypeAgent is designed to be model and provider agnostic. The following LLM and e
 | Azure OpenAI        | ✅               | ✅                  |
 | Google AI (Gemini)  | ✅               | ❌                  |
 | Anthropic (Claude)  | ✅               | ❌                  |
-| Groq                | ✅ (alpha release) | ❌                  |
+| Groq                | ✅ (alpha release) | ❌                |
 | Cohere API          | ✅               | ❌                  |
 | vLLM                | ✅               | ❌                  |
 | Ollama              | ✅               | ✅                  |
@@ -55,6 +55,8 @@ TypeAgent is designed to be model and provider agnostic. The following LLM and e
 | oobabooga web UI    | ✅               | ❌                  |
 | llama.cpp           | ✅               | ❌                  |
 | HuggingFace TEI     | ❌               | ✅                  |
+| baichuan LLM        | ❌               | ❌                  |
+| qianwen LLM         | ❌               | ❌                  |
 
 When using TypeAgent with open LLMs (such as those downloaded from HuggingFace), the performance of TypeAgent will be highly dependent on the LLM's function calling ability ,Language understanding and reasoning skills.
 
@@ -64,6 +66,7 @@ When using TypeAgent with open LLMs (such as those downloaded from HuggingFace),
 - Add typeagent client
 - Add other type agent
 - test vectordb and other llms
+- add baichuan/qianwen etc LLM
 
 ## Comments
 
