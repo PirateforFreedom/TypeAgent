@@ -1,6 +1,6 @@
 
 
-## Current progress：TypeAgent V1.0  90%，TypeAgent V1.0 docs 65%
+
 
 
 <p align="center">
@@ -27,21 +27,6 @@ You can also use TypeAgent to deploy agents as a *service*. You can use a TypeAg
 
 
 
-## Installation & Setup   
-Install TypeAgent:
-```sh
-pip install -U pytypeagent
-```
-
-## Quickstart (CLI)  
-You can create and chat with a TypeAgent agent by running `typeagent run` in your CLI. The `run` command supports the following optional flags (see the [CLI documentation] for the full list of flags):
-* `--agent`: (str) Name of agent to create or to resume chatting with.
-* `--first`: (str) Allow user to sent the first message.
-* `--debug`: (bool) Show debug logs (default=False)
-
-You can view the list of available in-chat commands (e.g. `/memory`, `/exit`) in the [CLI documentation].
-
-
 ## Quickstart (Server)  
 
 
@@ -50,7 +35,7 @@ You can view the list of available in-chat commands (e.g. `/memory`, `/exit`) in
 2. Run `typeagent server`
 3. Go to `localhost:8283` in the browser to view the developer portal
 
-Once the server is running, you can use the [Python client] or [REST API] to connect to  `localhost:8283` (if you're running with the CLI) to create users, agents, and more. The service requires authentication with a TypeAgent admin password, which can be set with running `export TYPEAGENT_SERVER_PASS=password`. 
+Once the server is running, you can use the [REST API] to connect to  `localhost:8283` (if you're running with the CLI) to create users, agents, and more. The service requires authentication with a TypeAgent admin password, which can be set with running `export TYPEAGENT_SERVER_PASS=password`. 
 
 
 ## Supported Endpoints & Backends 
@@ -85,11 +70,6 @@ See full documentation at:Coming soon
 - Our codebase for the TypeAgent builds heavily on [MemGPT codebase](https://github.com/cpacker/MemGPT?tab=readme-ov-file)
 Thanks for open-sourcing! ,Our code will be open soon.....
 - The difference of MemGPT and Typeagent is that typeagent optimizes the entire memgpt code structure and creatively adds a complete memory module and knowledge base module
-
-
-## Legal notices
-By using TypeAgent and related TypeAgent services (such as the TypeAgent endpoint ), you agree to our [privacy policy](PRIVACY.md) and [terms of service](TERMS.md).
-
-
+  
 ## Roadmap
 goal: EQ and IQ AGENT
