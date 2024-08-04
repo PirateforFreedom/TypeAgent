@@ -31,6 +31,7 @@ You can also use TypeAgent to deploy agents as a *service*. You can use a TypeAg
 
 
 **1:** Run with the CLI:
+0. Clone the repo
 1. Run `typeagent configure`
 2. Run `typeagent server`
 3. Go to `localhost:8283` in the browser to view the developer portal
