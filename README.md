@@ -58,8 +58,7 @@ TypeAgent is designed to be model and provider agnostic. The following LLM and e
 | HuggingFace TEI     | ❌               | ✅                  |
 
 When using TypeAgent with open LLMs (such as those downloaded from HuggingFace), the performance of TypeAgent will be highly dependent on the LLM's function calling ability ,Language understanding and reasoning skills.
-## Documentation
-See full documentation at:Coming soon
+
 
 
 ## Comments
