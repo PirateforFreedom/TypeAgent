@@ -27,6 +27,7 @@ You can also use TypeAgent to deploy agents as a *service*. You can use a TypeAg
 
 
 IF you have any questions about using typeagent ,you can make a issues
+
 IF you clone this repo ,please click  star ,which will make more people to see
 
 
