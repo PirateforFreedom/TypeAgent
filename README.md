@@ -24,7 +24,7 @@ TypeAgent makes it easy to build and deploy stateful LLM agents with support for
 * Changing personas settings and role-playing
 
 You can also use TypeAgent to deploy agents as a *service*. You can use a TypeAgent server to run a multi-user, multi-agent application on top of supported LLM providers.
-IF you have any questions about using typeagent ,you can make a issues
+IF you have any questions about using typeagent ,you can make a issues ,meantime, clicking a star is better
 
 
 
