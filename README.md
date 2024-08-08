@@ -13,6 +13,11 @@
 </div>
 
 
+<div align="center">
+
+ <strong>中文版本</strong>
+</div>
+
 
 
 
