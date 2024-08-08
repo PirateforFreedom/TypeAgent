@@ -72,6 +72,7 @@ When using TypeAgent with open LLMs (such as those downloaded from HuggingFace),
 - Add other type agent
 - test vectordb and other llms
 - add baichuan/qianwen etc LLM
+- add prompt poet
 
 ## Comments
 
