@@ -16,6 +16,7 @@
 <div align="center">
 
  <strong>中文版本</strong>
+ <strong>Welcome to Agent World</strong>
 </div>
 
 
