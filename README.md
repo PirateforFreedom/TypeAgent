@@ -88,4 +88,4 @@ When using TypeAgent with open LLMs (such as those downloaded from HuggingFace),
 - The difference of MemGPT and Typeagent is that typeagent optimizes the entire memgpt code structure and creatively adds a complete memory module and knowledge base module
   
 ## Roadmap
-goal: EQ and IQ AGENT
+goal: EQ and IQ AGENT  or  a tool man
