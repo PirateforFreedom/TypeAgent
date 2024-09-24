@@ -17,7 +17,7 @@
 
  <strong>中文版本</strong>
  
- <strong>Welcome to Agent World !!!!!!!!!!</strong>
+ <strong>Are there any friends who want to start a business that crate business agent?？？？？？？？？</strong>
 </div>
 
 
