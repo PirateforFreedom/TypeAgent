@@ -17,7 +17,7 @@
 
  <strong>中文版本</strong>
  
- <strong>Are there any friends who want to start a business that crate business agent?？？？？？？？？,contact me，Time is urgent</strong>
+ <strong>Are there any friends who are interested in developing LLM agent together? Please contact me</strong>
 </div>
 
 
