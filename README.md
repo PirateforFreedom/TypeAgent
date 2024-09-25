@@ -15,7 +15,7 @@
 
 <div align="center">
 
- <strong>中文版本</strong>
+ <strong>中文版本(中文版MemGPT)或高级版MemGPT</strong>
  
  <strong>Are there any friends who are interested in developing LLM agent together? Please contact me</strong>
 </div>
