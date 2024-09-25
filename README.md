@@ -74,7 +74,7 @@ When using TypeAgent with open LLMs (such as those downloaded from HuggingFace),
 
 ## Example
 <p align="center">
-  <img src="./assets/logotest5.png" alt="TypeAgent logo"></a>
+  <img src="./assets/example12.png" alt="TypeAgent logo"></a>
 </p>
 
 As you can see, typeagent will intelligently change the memory
