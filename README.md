@@ -48,6 +48,9 @@ IF you clone this repo or are interesting ,please click  star ,which will make m
 
 Once the server is running, you can use the [REST API] to connect to  `localhost:8283` (if you're running with the CLI) to create users, agents, and more. The service requires authentication with a TypeAgent admin password, which can be set with running `export TYPEAGENT_SERVER_PASS=password`. 
 
+## Quickstart (TypeAgent DEV Frontend)
+  coming......
+
 
 ## Supported Endpoints & Backends 
 TypeAgent is designed to be model and provider agnostic. The following LLM and embedding endpoints are supported: 
