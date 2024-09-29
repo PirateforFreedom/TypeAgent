@@ -9,13 +9,13 @@
 
 <div align="center">
 
- <strong>TypeAgent allows you to create a LLM agent,which has complete memory module (long-term memory, short-term memory) and knowledge module（Various knowledge bases）,eventually become an agent with both EQ and IQ.Another most important thing is that he can use various tools and become a real tool man.IT can also create various types of agents,IT also called LLM OS</strong>
+ <strong>TypeAgent allows you to create a LLM agent,which has complete memory module (long-term memory, short-term memory) and knowledge module（Various knowledge bases）,eventually become an agent with both EQ and IQ.Another most important thing is that he can use various tools and become a real tool man.IT can also create various types of agents,IT also called LLM OS.open source</strong>
 </div>
 
 
 <div align="center">
 
- <strong>中文版本(中文版MemGPT)或高级版MemGPT</strong>
+ <strong>中文版本(中文版MemGPT)或高级版MemGPT，开源</strong>
  
  <strong>Are there any friends who are interested in developing LLM agent together? Please contact me</strong>
 </div>
