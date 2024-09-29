@@ -39,7 +39,7 @@ IF you clone this repo or are interesting ,please click  star ,which will make m
 
 
 
-## Quickstart (Server)  
+## Quickstart (TypeAgent DEV Backend Server)  
 
 0. Clone the repo
 1. Run `typeagent configure`
