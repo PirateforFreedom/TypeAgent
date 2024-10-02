@@ -4,7 +4,7 @@
 
 
 <p align="center">
-  <img src="./assets/logotest5.png" alt="TypeAgent logo"></a>
+  <img src="./assets/luann_github.png" alt="luann logo"></a>
 </p>
 
 <div align="center">
