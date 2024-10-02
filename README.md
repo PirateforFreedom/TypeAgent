@@ -94,7 +94,7 @@ As you can see, typeagent will intelligently change the memory
 
 - This project is a Leisure time hobby，If you are interested in the project ,you can make a issue.
 - Our codebase for the Luann builds heavily on [MemGPT codebase](https://github.com/cpacker/MemGPT?tab=readme-ov-file),Thanks for open-sourcing! 
-- The difference of MemGPT and Luann is that typeagent optimizes the entire memgpt code structure and creatively adds a complete memory module and knowledge base module
+- The difference of MemGPT and Luann is that Luann optimizes the entire memgpt code structure and creatively adds a complete memory module and knowledge base module
   
 ## Roadmap
 goal: EQ and IQ AGENT  or  a tool man
