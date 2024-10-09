@@ -89,6 +89,7 @@ As you can see, typeagent will intelligently change the memory
 - test vectordb and other llms
 - add baichuan/qianwen etc LLM
 - add prompt poet
+- add voice clone
 
 ## Comments
 
