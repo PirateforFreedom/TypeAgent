@@ -39,7 +39,7 @@ IF you clone this repo or are interesting ,please click  star ,which will make m
 
 
 
-## Quickstart (Luann DEV Backend Server)  
+## Quickstart (Luann ADE Backend Server)  
 
 0. Clone the repo
 1. Run `python main.py configure`
@@ -48,7 +48,7 @@ IF you clone this repo or are interesting ,please click  star ,which will make m
 
 Once the server is running, you can use the [REST API] to connect to  `localhost:8283` (if you're running with the CLI) to create users, agents, and more. 
 
-## Quickstart (Luann DEV Frontend)
+## Quickstart (Luann ADE Frontend)
   coming......
 
 
