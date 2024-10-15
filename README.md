@@ -90,6 +90,7 @@ As you can see, typeagent will intelligently change the memory
 - add baichuan/qianwen etc LLM
 - add prompt poet
 - add voice clone
+- 对接国内各种大模型
 
 ## Comments
 
