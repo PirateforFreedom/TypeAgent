@@ -92,6 +92,7 @@ As you can see, typeagent will intelligently change the memory
 - add voice clone
 - 对接国内各种大模型
 - add benchmark libary
+- add openai swarm
 
 ## Comments
 
