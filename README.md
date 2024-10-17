@@ -92,9 +92,9 @@ As you can see, typeagent will intelligently change the memory
 - add voice clone
 - 对接国内各种大模型
 - add Agent Evaluation
-- add RAG Evaluation
+- add RAG Evaluation（Ragas https://github.com/explodinggradients/ragas）
 - add openai swarm
-- add LLM reranker
+- add LLM reranker（GPT4o reranker）
 
 ## Comments
 
