@@ -5,6 +5,7 @@ typeagent_DIR = os.path.join(os.path.expanduser("~"), ".typeagent")
 CURRENT_AGENT_TYPE=["Memgpt","OpenDevin_Planer"]
 TYPEAGENT_TYPE={
     "Memgpt": "memagent",
+    "Swe":"swe",
    
 
 }
