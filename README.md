@@ -15,7 +15,7 @@
 
 <div align="center">
 
- <strong>中文版本，完全开源,请点赞，开发中，可能会有bug</strong>
+ <strong>中文版本，完全开源,请点赞，开发中。。。，可能会有bug</strong>
  
  <strong>Are there any friends who are interested in developing LLM agent together? Please contact me</strong>
 </div>
@@ -100,8 +100,9 @@ As you can see, typeagent will intelligently change the memory
 
 - This project is a Leisure time hobby，If you are interested in the project ,you can make a issue.
 - Our codebase for the Luann builds heavily on [MemGPT codebase](https://github.com/cpacker/MemGPT?tab=readme-ov-file),Thanks for open-sourcing! 
-- The difference of MemGPT and Luann is that Luann optimizes the entire memgpt code structure and creatively adds a complete memory module and knowledge base module
+- The difference of MemGPT(letta) and Luann is that Luann optimizes the entire memgpt code structure and creatively adds a complete memory module and knowledge base module.
+- The other main difference of MemGPT(letta) and Luann is that Luann can create various type  of agent,one architecture ,one pipline,one framework.
 - 欢迎投资人或者合作伙伴
   
 ## Roadmap
-goal: EQ and IQ AGENT  or  a tool man
+goal: EQ and IQ AGENT  or  a tool man ,or briage of  llm and application
