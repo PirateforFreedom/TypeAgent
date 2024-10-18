@@ -15,7 +15,7 @@
 
 <div align="center">
 
- <strong>中文版本，完全开源,请点赞，开发中，可能会有bug</strong>
+ <strong>中文版本，完全开源,请点赞，开发中。。。，可能会有bug</strong>
  
  <strong>Are there any friends who are interested in developing LLM agent together? Please contact me</strong>
 </div>
