@@ -105,4 +105,4 @@ As you can see, typeagent will intelligently change the memory
 - 欢迎投资人或者合作伙伴
   
 ## Roadmap
-goal: EQ and IQ AGENT  or  a tool man
+goal: EQ and IQ AGENT  or  a tool man ,or briage of  llm and application
