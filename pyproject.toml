@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "luann"
+version = "0.1.0"
+description = "Create LLM agents with long-term memory and custom tools"
+authors = ["Elliot <jiangqiulong68@163.com>"]
+license = "Apache License"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
