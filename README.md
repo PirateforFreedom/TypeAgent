@@ -29,6 +29,10 @@ Luann makes it easy to build and deploy stateful LLM agents with support for:
 * Intelligent switching knowledge base
 * Defining and calling custom tools，then help you do something(take action)
 * Changing personas settings and role-playing
+* Complete evauation subsystem for rag and whole agent system at Production Environment
+* Reasoning system(from phidata agent)
+* ADE UI
+* Create various types of agent
 
 You can also use Luann to deploy agents as a *service*. You can use a Luann server to run a multi-user, multi-agent application on top of supported LLM providers.
 
@@ -52,7 +56,18 @@ Once the server is running, you can use the [REST API] to connect to  `localhost
   coming......
 
 
-## Supported Endpoints & Backends 
+## Supported Type of Agents 
+Luann is designed to Create various types of agent. The following type of agent are supported: 
+
+| Type            | supported    |
+|---------------------|-----------------|
+| Memgpt              | ✅               |
+| openhands        |    ❌           |
+
+
+Luann is designed to Create various types of agent.
+
+## Supported Endpoints & Backends
 Luann is designed to be model and provider agnostic. The following LLM and embedding endpoints are supported: 
 
 | Provider            | LLM Endpoint    | Embedding Endpoint |
@@ -92,9 +107,13 @@ As you can see, typeagent will intelligently change the memory
 - add voice clone
 - 对接国内各种大模型
 - add Agent Evaluation
-- add Production RAG Evaluation（Ragas https://github.com/explodinggradients/ragas）
+- add Production RAG Evaluation（Ragas https://github.com/explodinggradients/ragas）（progess 70%）
 - add openai swarm
-- add LLM reranker（GPT4o reranker）
+- add LLM reranker subsystem（GPT4o reranker）
+- add phidata agent
+- add automation workflow（not only chat but also do something）
+- add session timeline
+- add  Other modulus models, such as OCR models, BLIP etc.
 
 ## Comments
 
@@ -102,7 +121,9 @@ As you can see, typeagent will intelligently change the memory
 - Our codebase for the Luann builds heavily on [MemGPT codebase](https://github.com/cpacker/MemGPT?tab=readme-ov-file),Thanks for open-sourcing! 
 - The difference of MemGPT(letta) and Luann is that Luann optimizes the entire memgpt code structure and creatively adds a complete memory module and knowledge base module.
 - The other main difference of MemGPT(letta) and Luann is that Luann can create various type  of agent,one architecture ,one pipline,one framework.
+- Documentation temporary reference [MemGPT codebase](https://github.com/cpacker/MemGPT?tab=readme-ov-file).Thanks letta
+- New ideas and new features will be added continuously,make everyone use very well
 - 欢迎投资人或者合作伙伴
   
 ## Roadmap
-goal: EQ and IQ AGENT  or  a tool man ,or briage of  llm and application
+goal: EQ and IQ AGENT  or  a tool man(not only chat but also do something automately) ,or briage of  llm and application 
