@@ -103,7 +103,7 @@ As you can see, typeagent will intelligently change the memory
 - add baichuan/qianwen etc LLM
 - add voice clone （tortoise-tts）
 - add Agent Evaluation
-- add Production RAG Evaluation（Ragas https://github.com/explodinggradients/ragas）（progess 70%）
+- add Production RAG Evaluation（Ragas https://github.com/explodinggradients/ragas and part from crewai）（progess 70%）
 - add openai swarm
 - add LLM reranker subsystem（GPT4o reranker）
 - add automation workflow（not only chat but also do something）
