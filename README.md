@@ -107,7 +107,7 @@ As you can see, typeagent will intelligently change the memory
 - add openai swarm
 - add LLM reranker subsystem（GPT4o reranker）
 - add automation workflow（not only chat but also do something）
-- add session timeline
+- add session timeline （from phidata）
 - add  Other modulus models, such as OCR models, BLIP etc.
 
 ## Comments
