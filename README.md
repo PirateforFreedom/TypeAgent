@@ -30,7 +30,7 @@ Luann makes it easy to build and deploy stateful LLM agents with support for:
 * Complete evauation subsystem for rag and whole agent system at Production Environment
 * Reasoning system(from phidata agent)
 * ADE UI
-* Create various types of agent
+* Create various types of agent(swe,ai scientist,etc..)
 
 You can also use Luann to deploy agents as a *service*. You can use a Luann server to run a multi-user, multi-agent application on top of supported LLM providers.
 
