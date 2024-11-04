@@ -1,7 +1,7 @@
 import os
 from logging import CRITICAL, DEBUG, ERROR, INFO, NOTSET, WARN, WARNING
 
-typeagent_DIR = os.path.join(os.path.expanduser("~"), ".typeagent")
+typeagent_DIR = os.path.join(os.path.expanduser("~"), ".luann")
 CURRENT_AGENT_TYPE=["Memgpt","OpenDevin_Planer"]
 TYPEAGENT_TYPE={
     "Memgpt": "memagent",
