@@ -15,9 +15,7 @@
 
 <div align="center">
 
- <strong>中文版本，完全开源,请点赞，开发中。。。，可能会有bug</strong>
- 
- <strong>Are there any friends who are interested in developing LLM agent together? Please contact me</strong>
+ <strong>This version is under development and may have bugs......</strong>
 </div>
 
 
@@ -32,7 +30,7 @@ Luann makes it easy to build and deploy stateful LLM agents with support for:
 * Complete evauation subsystem for rag and whole agent system at Production Environment
 * Reasoning system(from phidata agent)
 * ADE UI
-* Create various types of agent
+* Create various types of agent(swe,ai scientist,etc..)
 
 You can also use Luann to deploy agents as a *service*. You can use a Luann server to run a multi-user, multi-agent application on top of supported LLM providers.
 
@@ -103,16 +101,13 @@ As you can see, typeagent will intelligently change the memory
 - Add other type agent
 - test vectordb and other llms
 - add baichuan/qianwen etc LLM
-- add prompt poet
-- add voice clone
-- 对接国内各种大模型
+- add voice clone （tortoise-tts）
 - add Agent Evaluation
-- add Production RAG Evaluation（Ragas https://github.com/explodinggradients/ragas）（progess 70%）
+- add Production RAG Evaluation（Ragas https://github.com/explodinggradients/ragas and part from crewai）（progess 70%）
 - add openai swarm
 - add LLM reranker subsystem（GPT4o reranker）
-- add phidata agent
 - add automation workflow（not only chat but also do something）
-- add session timeline
+- add session timeline （from phidata）
 - add  Other modulus models, such as OCR models, BLIP etc.
 
 ## Comments
@@ -123,7 +118,6 @@ As you can see, typeagent will intelligently change the memory
 - The other main difference of MemGPT(letta) and Luann is that Luann can create various type  of agent,one architecture ,one pipline,one framework.
 - Documentation temporary reference [MemGPT codebase](https://github.com/cpacker/MemGPT?tab=readme-ov-file).Thanks letta
 - New ideas and new features will be added continuously,make everyone use very well
-- 欢迎投资人或者合作伙伴
   
 ## Roadmap
 goal: EQ and IQ AGENT  or  a tool man(not only chat but also do something automately) ,or briage of  llm and application 
