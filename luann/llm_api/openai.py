@@ -244,76 +244,76 @@ def openai_chat_completions_process_stream(
     return chat_completion_response
 
 
-def _sse_post(url: str, data: dict, headers: dict) -> Generator[ChatCompletionChunkResponse, None, None]:
+# def _sse_post(url: str, data: dict, headers: dict) -> Generator[ChatCompletionChunkResponse, None, None]:
 
-    with httpx.Client() as client:
-        with connect_sse(client, method="POST", url=url, json=data, headers=headers) as event_source:
+#     with httpx.Client() as client:
+#         with connect_sse(client, method="POST", url=url, json=data, headers=headers) as event_source:
 
-            # Inspect for errors before iterating (see https://github.com/florimondmanca/httpx-sse/pull/12)
-            if not event_source.response.is_success:
-                # handle errors
-                from utils import printd
+#             # Inspect for errors before iterating (see https://github.com/florimondmanca/httpx-sse/pull/12)
+#             if not event_source.response.is_success:
+#                 # handle errors
+#                 from utils import printd
 
-                printd("Caught error before iterating SSE request:", vars(event_source.response))
-                printd(event_source.response.read())
+#                 printd("Caught error before iterating SSE request:", vars(event_source.response))
+#                 printd(event_source.response.read())
 
-                try:
-                    response_bytes = event_source.response.read()
-                    response_dict = json.loads(response_bytes.decode("utf-8"))
-                    error_message = response_dict["error"]["message"]
-                    # e.g.: This model's maximum context length is 8192 tokens. However, your messages resulted in 8198 tokens (7450 in the messages, 748 in the functions). Please reduce the length of the messages or functions.
-                    raise Exception(error_message)
-                except:
-                    print(f"Failed to parse SSE message, throwing SSE HTTP error up the stack")
-                    event_source.response.raise_for_status()
-            try:
-                for sse in event_source.iter_sse():
-                    # printd(sse.event, sse.data, sse.id, sse.retry)
-                    if sse.data == OPENAI_SSE_DONE:
-                        # print("finished")
-                        break
-                    else:
-                        chunk_data = json.loads(sse.data)
-                        # print("chunk_data::", chunk_data)
-                        chunk_object = ChatCompletionChunkResponse(**chunk_data)
-                        # print("chunk_object::", chunk_object)
-                        # id=chunk_data["id"],
-                        # choices=[ChunkChoice],
-                        # model=chunk_data["model"],
-                        # system_fingerprint=chunk_data["system_fingerprint"]
-                        # )
-                        yield chunk_object
+#                 try:
+#                     response_bytes = event_source.response.read()
+#                     response_dict = json.loads(response_bytes.decode("utf-8"))
+#                     error_message = response_dict["error"]["message"]
+#                     # e.g.: This model's maximum context length is 8192 tokens. However, your messages resulted in 8198 tokens (7450 in the messages, 748 in the functions). Please reduce the length of the messages or functions.
+#                     raise Exception(error_message)
+#                 except:
+#                     print(f"Failed to parse SSE message, throwing SSE HTTP error up the stack")
+#                     event_source.response.raise_for_status()
+#             try:
+#                 for sse in event_source.iter_sse():
+#                     # printd(sse.event, sse.data, sse.id, sse.retry)
+#                     if sse.data == OPENAI_SSE_DONE:
+#                         # print("finished")
+#                         break
+#                     else:
+#                         chunk_data = json.loads(sse.data)
+#                         # print("chunk_data::", chunk_data)
+#                         chunk_object = ChatCompletionChunkResponse(**chunk_data)
+#                         # print("chunk_object::", chunk_object)
+#                         # id=chunk_data["id"],
+#                         # choices=[ChunkChoice],
+#                         # model=chunk_data["model"],
+#                         # system_fingerprint=chunk_data["system_fingerprint"]
+#                         # )
+#                         yield chunk_object
 
-            except SSEError as e:
-                print("Caught an error while iterating the SSE stream:", str(e))
-                if "application/json" in str(e):  # Check if the error is because of JSON response
-                    response = client.post(url=url, json=data, headers=headers)  # Make the request again to get the JSON response
-                    if response.headers["Content-Type"].startswith("application/json"):
-                        error_details = response.json()  # Parse the JSON to get the error message
-                        # print("Error:", error_details)
-                        # print("Reqeust:", vars(response.request))
+#             except SSEError as e:
+#                 print("Caught an error while iterating the SSE stream:", str(e))
+#                 if "application/json" in str(e):  # Check if the error is because of JSON response
+#                     response = client.post(url=url, json=data, headers=headers)  # Make the request again to get the JSON response
+#                     if response.headers["Content-Type"].startswith("application/json"):
+#                         error_details = response.json()  # Parse the JSON to get the error message
+#                         # print("Error:", error_details)
+#                         # print("Reqeust:", vars(response.request))
 
-                        print("Request:", vars(response.request))
-                        print("POST Error:", error_details)
-                        print("Original SSE Error:", str(e))
-                    else:
-                        # print("Failed to retrieve JSON error message.")
-                        print("Failed to retrieve JSON error message via retry.")
-                else:
-                    print("SSEError not related to 'application/json' content type.")
+#                         print("Request:", vars(response.request))
+#                         print("POST Error:", error_details)
+#                         print("Original SSE Error:", str(e))
+#                     else:
+#                         # print("Failed to retrieve JSON error message.")
+#                         print("Failed to retrieve JSON error message via retry.")
+#                 else:
+#                     print("SSEError not related to 'application/json' content type.")
 
-                # Optionally re-raise the exception if you need to propagate it
-                raise e
+#                 # Optionally re-raise the exception if you need to propagate it
+#                 raise e
 
-            except Exception as e:
-                if event_source.response.request is not None:
-                    print("HTTP Request:", vars(event_source.response.request))
-                if event_source.response is not None:
-                    print("HTTP Status:", event_source.response.status_code)
-                    print("HTTP Headers:", event_source.response.headers)
-                    # print("HTTP Body:", event_source.response.text)
-                print("Exception message:", str(e))
-                raise e
+#             except Exception as e:
+#                 if event_source.response.request is not None:
+#                     print("HTTP Request:", vars(event_source.response.request))
+#                 if event_source.response is not None:
+#                     print("HTTP Status:", event_source.response.status_code)
+#                     print("HTTP Headers:", event_source.response.headers)
+#                     # print("HTTP Body:", event_source.response.text)
+#                 print("Exception message:", str(e))
+#                 raise e
 
 
 def openai_chat_completions_request_stream(

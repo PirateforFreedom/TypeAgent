@@ -1,6 +1,6 @@
 import json
 
-import yaml
+# import yaml
 
 from constants import JSON_ENSURE_ASCII, JSON_LOADS_STRICT
 from errors import LLMJSONParsingError
@@ -314,75 +314,75 @@ class ConfigurableJSONWrapper(LLMChatCompletionWrapper):
         }
         return message
 
-    def save_to_yaml(self, file_path: str):
-        """
-        Save the configuration to a YAML file.
+    # def save_to_yaml(self, file_path: str):
+    #     """
+    #     Save the configuration to a YAML file.
 
-        Args:
-            file_path (str): The path to the YAML file.
-        """
-        data = {
-            "pre_prompt": self.pre_prompt,
-            "post_prompt": self.post_prompt,
-            "sys_prompt_start": self.sys_prompt_start,
-            "sys_prompt_end": self.sys_prompt_end,
-            "user_prompt_start": self.user_prompt_start,
-            "user_prompt_end": self.user_prompt_end,
-            "assistant_prompt_start": self.assistant_prompt_start,
-            "assistant_prompt_end": self.assistant_prompt_end,
-            "tool_prompt_start": self.tool_prompt_start,
-            "tool_prompt_end": self.tool_prompt_end,
-            "assistant_prefix_extra": self.assistant_prefix_extra,
-            "assistant_prefix_extra_first_message": self.assistant_prefix_extra_first_message,
-            "allow_custom_roles": self.allow_custom_roles,
-            "custom_post_role": self.custom_post_role,
-            "custom_roles_prompt_start": self.custom_roles_prompt_start,
-            "custom_roles_prompt_end": self.custom_roles_prompt_end,
-            "include_sys_prompt_in_first_user_message": self.include_sys_prompt_in_first_user_message,
-            "simplify_json_content": self.simplify_json_content,
-            "strip_prompt": self.strip_prompt,
-            "json_indent": self.json_indent,
-            "clean_function_args": self.clean_func_args,
-            "default_stop_sequences": self.default_stop_sequences,
-        }
+    #     Args:
+    #         file_path (str): The path to the YAML file.
+    #     """
+    #     data = {
+    #         "pre_prompt": self.pre_prompt,
+    #         "post_prompt": self.post_prompt,
+    #         "sys_prompt_start": self.sys_prompt_start,
+    #         "sys_prompt_end": self.sys_prompt_end,
+    #         "user_prompt_start": self.user_prompt_start,
+    #         "user_prompt_end": self.user_prompt_end,
+    #         "assistant_prompt_start": self.assistant_prompt_start,
+    #         "assistant_prompt_end": self.assistant_prompt_end,
+    #         "tool_prompt_start": self.tool_prompt_start,
+    #         "tool_prompt_end": self.tool_prompt_end,
+    #         "assistant_prefix_extra": self.assistant_prefix_extra,
+    #         "assistant_prefix_extra_first_message": self.assistant_prefix_extra_first_message,
+    #         "allow_custom_roles": self.allow_custom_roles,
+    #         "custom_post_role": self.custom_post_role,
+    #         "custom_roles_prompt_start": self.custom_roles_prompt_start,
+    #         "custom_roles_prompt_end": self.custom_roles_prompt_end,
+    #         "include_sys_prompt_in_first_user_message": self.include_sys_prompt_in_first_user_message,
+    #         "simplify_json_content": self.simplify_json_content,
+    #         "strip_prompt": self.strip_prompt,
+    #         "json_indent": self.json_indent,
+    #         "clean_function_args": self.clean_func_args,
+    #         "default_stop_sequences": self.default_stop_sequences,
+    #     }
 
-        with open(file_path, "w") as yaml_file:
-            yaml.dump(data, yaml_file, default_flow_style=False)
+    #     with open(file_path, "w") as yaml_file:
+    #         yaml.dump(data, yaml_file, default_flow_style=False)
 
-    @staticmethod
-    def load_from_yaml(file_path: str):
-        """
-        Load the configuration from a YAML file.
+    # @staticmethod
+    # def load_from_yaml(file_path: str):
+    #     """
+    #     Load the configuration from a YAML file.
 
-        Args:
-            file_path (str): The path to the YAML file.
-        """
-        with open(file_path, "r") as yaml_file:
-            data = yaml.safe_load(yaml_file)
+    #     Args:
+    #         file_path (str): The path to the YAML file.
+    #     """
+    #     with open(file_path, "r") as yaml_file:
+    #         data = yaml.safe_load(yaml_file)
 
-        wrapper = ConfigurableJSONWrapper()
-        # Set the attributes from the loaded data
-        wrapper.pre_prompt = data.get("pre_prompt", "")
-        wrapper.post_prompt = data.get("post_prompt", "")
-        wrapper.sys_prompt_start = data.get("sys_prompt_start", "")
-        wrapper.sys_prompt_end = data.get("sys_prompt_end", "")
-        wrapper.user_prompt_start = data.get("user_prompt_start", "")
-        wrapper.user_prompt_end = data.get("user_prompt_end", "")
-        wrapper.assistant_prompt_start = data.get("assistant_prompt_start", "")
-        wrapper.assistant_prompt_end = data.get("assistant_prompt_end", "")
-        wrapper.tool_prompt_start = data.get("tool_prompt_start", "")
-        wrapper.tool_prompt_end = data.get("tool_prompt_end", "")
-        wrapper.assistant_prefix_extra = data.get("assistant_prefix_extra", "")
-        wrapper.assistant_prefix_extra_first_message = data.get("assistant_prefix_extra_first_message", "")
-        wrapper.allow_custom_roles = data.get("allow_custom_roles", False)
-        wrapper.custom_post_role = data.get("custom_post_role", "")
-        wrapper.custom_roles_prompt_start = data.get("custom_roles_prompt_start", "")
-        wrapper.custom_roles_prompt_end = data.get("custom_roles_prompt_end", "")
-        wrapper.include_sys_prompt_in_first_user_message = data.get("include_sys_prompt_in_first_user_message", False)
-        wrapper.simplify_json_content = data.get("simplify_json_content", False)
-        wrapper.strip_prompt = data.get("strip_prompt", False)
-        wrapper.json_indent = data.get("json_indent", 2)
-        wrapper.clean_func_args = data.get("clean_function_args", False)
-        wrapper.default_stop_sequences = data.get("default_stop_sequences", [])
+    #     wrapper = ConfigurableJSONWrapper()
+    #     # Set the attributes from the loaded data
+    #     wrapper.pre_prompt = data.get("pre_prompt", "")
+    #     wrapper.post_prompt = data.get("post_prompt", "")
+    #     wrapper.sys_prompt_start = data.get("sys_prompt_start", "")
+    #     wrapper.sys_prompt_end = data.get("sys_prompt_end", "")
+    #     wrapper.user_prompt_start = data.get("user_prompt_start", "")
+    #     wrapper.user_prompt_end = data.get("user_prompt_end", "")
+    #     wrapper.assistant_prompt_start = data.get("assistant_prompt_start", "")
+    #     wrapper.assistant_prompt_end = data.get("assistant_prompt_end", "")
+    #     wrapper.tool_prompt_start = data.get("tool_prompt_start", "")
+    #     wrapper.tool_prompt_end = data.get("tool_prompt_end", "")
+    #     wrapper.assistant_prefix_extra = data.get("assistant_prefix_extra", "")
+    #     wrapper.assistant_prefix_extra_first_message = data.get("assistant_prefix_extra_first_message", "")
+    #     wrapper.allow_custom_roles = data.get("allow_custom_roles", False)
+    #     wrapper.custom_post_role = data.get("custom_post_role", "")
+    #     wrapper.custom_roles_prompt_start = data.get("custom_roles_prompt_start", "")
+    #     wrapper.custom_roles_prompt_end = data.get("custom_roles_prompt_end", "")
+    #     wrapper.include_sys_prompt_in_first_user_message = data.get("include_sys_prompt_in_first_user_message", False)
+    #     wrapper.simplify_json_content = data.get("simplify_json_content", False)
+    #     wrapper.strip_prompt = data.get("strip_prompt", False)
+    #     wrapper.json_indent = data.get("json_indent", 2)
+    #     wrapper.clean_func_args = data.get("clean_function_args", False)
+    #     wrapper.default_stop_sequences = data.get("default_stop_sequences", [])
 
-        return wrapper
+    #     return wrapper
