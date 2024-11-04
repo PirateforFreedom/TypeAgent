@@ -215,6 +215,14 @@ class RecallMemory(ABC):
         """Insert message into recall memory"""
 
 
+# class DummyrecallMemoryTwo(RecallMemory):
+#     """
+#     dummy in-memory version of a recall memory  database(eg run on mongdb)
+#     """
+#     def gettopicture(itemmemoyr:str):
+#         returstring="which do you it if sectory is "
+#         return "do you know it,sdf is i from ,sdf,doyou know,just is that from that saying it is  ,from it is her"
+
 class DummyRecallMemory(RecallMemory):
     """Dummy in-memory version of a recall memory database (eg run on MongoDB)
 

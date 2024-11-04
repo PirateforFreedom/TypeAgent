@@ -45,6 +45,9 @@ class typeagentCredentials:
     openllm_auth_type: Optional[str] = None
     openllm_key: Optional[str] = None
 
+    # defulat llm api config
+    # 
+
     @classmethod
     def load(cls) -> "typeagentCredentials":
         config = configparser.ConfigParser()

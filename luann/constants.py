@@ -25,7 +25,7 @@ BASE_TOOLS = [
 TYPEAGENT_PROJECT_DIR=os.path.dirname(os.path.abspath(__file__))
 print(TYPEAGENT_PROJECT_DIR)
 
-TYPEAGENT_VERSION="0.3.13"
+TYPEAGENT_VERSION="0.3.14"
 # OpenAI error message: Invalid 'messages[1].tool_calls[0].id': string too long. Expected a string with maximum length 29, but got a string with length 36 instead.
 TOOL_CALL_ID_MAX_LEN = 29
 
