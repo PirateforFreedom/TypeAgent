@@ -120,4 +120,4 @@ As you can see, typeagent will intelligently change the memory
 - New ideas and new features will be added continuously,make everyone use very well
   
 ## Roadmap
-goal: EQ and IQ AGENT  or  a tool man(not only chat but also do something automately) ,or briage of  llm and application 
+goal: EQ and IQ AGENT  or  a tool man(not only chat but also do something automately) ,or briage of  llm and application,finally to acting agent
