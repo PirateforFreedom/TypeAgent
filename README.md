@@ -109,6 +109,7 @@ As you can see, typeagent will intelligently change the memory
 - add automation workflow（not only chat but also do something）
 - add session timeline （from phidata）
 - add  Other modulus models, such as OCR models, BLIP etc.
+  add trained SLM or SMM by using Self-developed deep learning training framework PyFlame ,which aimed to use specific usecase,because Special small models act as lubricants for modules in the agent framework
 
 ## Comments
 
