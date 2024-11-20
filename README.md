@@ -98,7 +98,7 @@ As you can see, typeagent will intelligently change the memory
 ## TODO LIST
 
 - Add Luann client
-- Add other type agent
+- Add other type agent( more complex agent  like  openhand, or simple functional agent)
 - test vectordb and other llms
 - add baichuan/qianwen etc LLM
 - add voice clone （tortoise-tts）
@@ -110,6 +110,7 @@ As you can see, typeagent will intelligently change the memory
 - add session timeline （from phidata）
 - add  Other modulus models, such as OCR models, BLIP etc.
 - add trained SLM or SMM by using Self-developed deep learning training framework PyFlame ,which aimed to use specific usecase,because Special small models act as lubricants for modules in the agent framework
+
 
 ## Comments
 
