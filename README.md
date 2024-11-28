@@ -15,7 +15,7 @@
 
 <div align="center">
 
- <strong>This version is under development and may have bugs......</strong>
+ <strong>This version is under development......</strong>
 </div>
 
 
