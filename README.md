@@ -15,7 +15,7 @@
 
 <div align="center">
 
- <strong>This version is under development......</strong>
+ <strong>This version is under development......，maybe holiday is free</strong>
 </div>
 
 
