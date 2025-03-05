@@ -121,6 +121,7 @@ As you can see, typeagent will intelligently change the memory
 - The other main difference of MemGPT(letta) and Luann is that Luann can create various type  of agent,one architecture ,one pipline,one framework.
 - Documentation temporary reference [MemGPT codebase](https://github.com/cpacker/MemGPT?tab=readme-ov-file).Thanks letta
 - New ideas and new features will be added continuously,make everyone use very well
+- new version is coding ,please wait..
   
 ## Roadmap
 goal: EQ and IQ AGENT  or  a tool man(not only chat but also do something automately) ,or briage of  llm and application,finally to acting agent
