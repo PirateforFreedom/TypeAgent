@@ -15,7 +15,7 @@
 
 <div align="center">
 
- <strong>This version is under development......，maybe holiday is free</strong>
+ <strong>luann python client and luann docker will coming soon.....</strong>
 </div>
 
 
